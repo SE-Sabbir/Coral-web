@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@layer utilities{
+  .container {
+  margin-inline: auto;
+  }
+} 
+
+:root{
+  --color-primary:#1E2832;
+
+  --font-roboto:"Roboto", "sans-serif";
+  --font-opensans:"Open Sans", "sans-serif";
+}
