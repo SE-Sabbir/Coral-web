@@ -34,7 +34,7 @@ const Navbar = () => {
     ]
   return (
     <>
-    <nav id="Navbar" className='pt-[30px]'>
+    <nav id="Navbar" className='pt-[120px] hidden lg:block absolute top-0 left-0 w-full'>
         <div className="container">
             <ul className=' flex items-center justify-between'>
                 {

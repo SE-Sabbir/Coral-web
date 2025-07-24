@@ -4,8 +4,7 @@
   margin-inline: auto;
   }
 } 
-
-:root{
+@theme{
   --color-primary:#1E2832;
 
   --font-roboto:"Roboto", "sans-serif";
