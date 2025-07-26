@@ -51,6 +51,7 @@ const ResHeader = () => {
         </div>
         {/* ------Show NavMenu */}
         <div className={`navmenu w-[80%] h-screen bg-primary absolute inline-block top-23 z-10 duration-[.4s] ${showMenu? 'right-0' : 'right-[-100%]'}`}>
+        {/* <div className={`navmenu w-[80%] h-screen bg-primary absolute inline-block left-0 top-23 z-10 duration-[.4s] ${showMenu? 'left-0' : 'left-[-100%]'}`}> */}
           <div className=' flex justify-around pt-6 px-5 pb-5 border-b border-[#E3E3E3]'>
             <Link className='flex items-center gap-[8px] text-lg font-normal font-roboto text-[#ffffff]' to={'#'}><FaUser/>Account</Link>
             <Link className='flex items-center gap-[8px] text-lg font-normal font-roboto text-[#ffffff]' to={'#'}><FaBagShopping/>Shoping</Link>
