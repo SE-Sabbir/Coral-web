@@ -9,7 +9,7 @@ import exploreimg5 from '../assets/images/explore5.png'
 const Explore = () => {
   return (
     <>
-    <section id='explore' className=' pt-[30px] lg:pt-[90px]  lg:pb-[90px]'>
+    <section id='explore' className=' pt-[30px] lg:pt-[90px]'>
         <div className="container relative">
                 <h1 className=' uppercase text-[20px] lg:text-[34px] font-roboto font-normal text-[#000000] rotate-0 lg:rotate-270 pb-15 lg:pb-0 pl-10 lg:pl-0 lg:left-[-350px] bottom-[45%] static lg:absolute'>Explore new and popular styles</h1>
             <div className="explore_row flex flex-wrap lg:flex-nowrap justify-between">
