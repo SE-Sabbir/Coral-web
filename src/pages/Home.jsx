@@ -5,6 +5,7 @@ import Explore from '../components/Explore'
 import Subscribe from '../components/Subscribe'
 import BrandBanner from '../components/BrandBanner'
 import Bestseller from '../components/Bestseller'
+import SocialDiscount from '../components/SocialDiscount'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
     <Subscribe/>
     <BrandBanner/>
     <Bestseller/>
+    <SocialDiscount/>
     </>
   )
 }

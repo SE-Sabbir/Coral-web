@@ -10,7 +10,7 @@ const Brand = () => {
     <>
     <section id='brand' className='pt-[30px] lg:pt-[90px]'>
         <div className="container">
-            <div className="brand_row flex justify-between flex-wrap lg:flex-nowrap">
+            <div className="brand_row flex justify-around lg:justify-between flex-wrap lg:flex-nowrap">
                 <div className=' w-[200px] h-[70px] '>
                     <img className='w-full' src={brandimg1} alt="brand image" />
                 </div>

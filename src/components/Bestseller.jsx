@@ -23,7 +23,16 @@ const Bestseller = () => {
     pauseOnHover: true,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 992,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
@@ -32,7 +41,7 @@ const Bestseller = () => {
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 768,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -40,7 +49,7 @@ const Bestseller = () => {
         }
       },
       {
-        breakpoint: 430,
+        breakpoint: 576,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
@@ -50,7 +59,7 @@ const Bestseller = () => {
   };
   return (
     <>
-    <section id='bestSeller' className='pt-[140px]'>
+    <section id='bestSeller' className='pt-[140px] pb-[140px] '>
         <div className="container">
             <CommonHead commonHeadText={'Best sellers'}/>
             <div className=' flex justify-between items-center pt-[35px]'>

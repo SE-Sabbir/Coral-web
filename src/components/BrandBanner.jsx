@@ -1,22 +1,26 @@
 import React from 'react'
 import brandBanner1 from '../assets/images/brandBanner.png'
 import zaralogo from '../assets/images/zaralogo.png'
+import { Link } from 'react-router'
 
 const BrandBanner = () => {
   return (
     <>
-    <section id='brandBanner'  className='pt-[140px] flex justify-center'>
-        <div className='brandBannerImg'>
-            <img src={brandBanner1} alt="Brand Banner Image" className=' w-full object-cover' />
-        </div>
-            <div className="container absolute pt-[233px] flex justify-end">
-                <div className=' pr-[33px]'>
+    <section id='brandBanner'style={{background:`url(${brandBanner1})`, backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center'}} 
+        className=' mt-[140px] pt-[140px] lg:pt-[220px] pb-[93px] '>
+          <div className='container flex lg:justify-end'>
+            <div className="brandBanner_row lg:flex-col flex flex-wrap justify-center ">
+              <div className=' w-[191px] h-[81px] '>
                 <img src={zaralogo} alt="zara logo" />
-                <p className=' w-[504px] py-[55px] capitalize font-roboto font-normal text-[26px] leading-[40px] text-[#ffffff] '>Lustrous yet understated. The new evening wear collection exclusively offered at the reopened Giorgio Armani boutique in LosAngeles.
-                </p>
-                <button className=' capitalize w-[223px] h-[72px] font-roboto font-normal text-[29px] text-primary bg-[#ffffff] cursor-grab ' >see collection</button>
-                </div>
+              </div>
+              <p className=' w-[360px] lg:w-[504px] py-[55px] font-roboto font-normal text-[22px] lg:text-[26px] leading-[40px] text-center lg:text-left text-[#ffffff] '>Lustrous yet understated. The new evening wear collection exclusively offered
+                 at the reopened Giorgio Armani boutique in Los Angeles.
+              </p>
+              <Link className='w-[233px] h-[72px] scale-[80%] lg:scale-[100%] bg-[#ffffff] font-roboto font-normal text-[29px] text-[#1E2832] flex justify-center items-center capitalize ' >see collection</Link>
             </div>
+
+          </div>
+      
     </section>
     </>
   )
