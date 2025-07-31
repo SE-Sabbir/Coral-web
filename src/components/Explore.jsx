@@ -14,14 +14,14 @@ const Explore = () => {
           <div className="explore_row relative">
                 <h1 className=' uppercase text-[25px] lg:text-[34px] text-center font-roboto font-normal text-[#000000] rotate-0 lg:rotate-270 pb-15 lg:pb-0 pl-10 lg:pl-0 lg:left-[-300px] bottom-[45%] static lg:absolute'>Explore new and popular styles</h1>
             <div className="explore_row flex flex-wrap justify-around gap-5">
-                <div className='w-[648px] h-svw lg:h-[648px]'>
-                  <Link className=' block px-10 lg:p-0' to={'#'}><img className='w-full' src={exploreimg1} alt="explore image" /></Link>
+                <div className=' w-full max-w-[648px] overflow-hidden'>
+                  <Link className=' block' to={'#'}><img className='w-full h-auto object-cover hover:scale-105 transition-all duration-[.6s]  ' src={exploreimg1} alt="explore image" /></Link>
                 </div>
-                <div className=' flex flex-wrap justify-center w-[648px] h-[648px] gap-5'>
-                    <Link className=' w-[312px] h-[312px] block ' to={'#'}><img className='w-full h-full object-cover' src={exploreimg2} alt="explore image" /></Link>
-                    <Link className=' w-[312px] h-[312px] block ' to={'#'}><img className='w-full h-full object-cover' src={exploreimg3} alt="explore image" /></Link>
-                    <Link className=' w-[312px] h-[312px] block ' to={'#'}><img className='w-full h-full object-cover' src={exploreimg4} alt="explore image" /></Link>
-                    <Link className=' w-[312px] h-[312px] block ' to={'#'}><img className='w-full h-full object-cover' src={exploreimg5} alt="explore image" /></Link>
+                <div className=' flex flex-wrap justify-center w-full max-w-[648px] h-auto gap-5'>
+                    <Link className=' w-[312px] h-[312px] block overflow-hidden ' to={'#'}><img className='w-full h-full object-cover hover:scale-105 transition-all duration-[.6s] ' src={exploreimg2} alt="explore image" /></Link>
+                    <Link className=' w-[312px] h-[312px] block overflow-hidden  ' to={'#'}><img className='w-full h-full object-cover hover:scale-105 transition-all duration-[.6s] ' src={exploreimg3} alt="explore image" /></Link>
+                    <Link className=' w-[312px] h-[312px] block overflow-hidden  ' to={'#'}><img className='w-full h-full object-cover hover:scale-105 transition-all duration-[.6s] ' src={exploreimg4} alt="explore image" /></Link>
+                    <Link className=' w-[312px] h-[312px] block overflow-hidden  ' to={'#'}><img className='w-full h-full object-cover hover:scale-105 transition-all duration-[.6s] ' src={exploreimg5} alt="explore image" /></Link>
                 </div>
             </div>
           </div>

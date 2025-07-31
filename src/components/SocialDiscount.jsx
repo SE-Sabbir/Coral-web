@@ -24,16 +24,16 @@ const SocialDiscount = () => {
 
   return (
     <>
-    <section id='socialDiscount' className=' pt-[100px] bg-[#1e28320d]'>
+    <section id='socialDiscount' className=' mt-[50px] lg:mt-[140px] pt-[100px] bg-[#1e28320d]'>
         <div className="container">
             <CommonHead commonHeadText={'Follow products and discounts on Instagram'}/>
             <div className=' flex flex-wrap justify-around lg:justify-between gap-2 pt-[60px]'>
-                <Link className=' w-[200px] h-[200px] ' to={'#'}> <img src={discountProImg1} alt="discount product image" /> </Link>
-                <Link className=' w-[200px] h-[200px] ' to={'#'}> <img src={discountProImg2} alt="discount product image" /> </Link>
-                <Link className=' w-[200px] h-[200px] ' to={'#'}> <img src={discountProImg3} alt="discount product image" /> </Link>
-                <Link className=' w-[200px] h-[200px] ' to={'#'}> <img src={discountProImg4} alt="discount product image" /> </Link>
-                <Link className=' w-[200px] h-[200px] ' to={'#'}> <img src={discountProImg5} alt="discount product image" /> </Link>
-                <Link className=' w-[200px] h-[200px] ' to={'#'}> <img src={discountProImg6} alt="discount product image" /> </Link>
+                <Link className=' w-[200px] h-[200px] hover:scale-105 transition-all duration-[.6s] hover:bg-[#e8f0f5] ' to={'#'}> <img src={discountProImg1} alt="discount product image" /> </Link>
+                <Link className=' w-[200px] h-[200px] hover:scale-105 transition-all duration-[.6s] hover:bg-[#e8f0f5]  ' to={'#'}> <img src={discountProImg2} alt="discount product image" /> </Link>
+                <Link className=' w-[200px] h-[200px] hover:scale-105 transition-all duration-[.6s] hover:bg-[#e8f0f5]  ' to={'#'}> <img src={discountProImg3} alt="discount product image" /> </Link>
+                <Link className=' w-[200px] h-[200px] hover:scale-105 transition-all duration-[.6s] hover:bg-[#e8f0f5]  ' to={'#'}> <img src={discountProImg4} alt="discount product image" /> </Link>
+                <Link className=' w-[200px] h-[200px] hover:scale-105 transition-all duration-[.6s] hover:bg-[#e8f0f5]  ' to={'#'}> <img src={discountProImg5} alt="discount product image" /> </Link>
+                <Link className=' w-[200px] h-[200px] hover:scale-105 transition-all duration-[.6s] hover:bg-[#e8f0f5]  ' to={'#'}> <img src={discountProImg6} alt="discount product image" /> </Link>
             </div>
   {/* -----------------Email part-------- */}
             <div className=' pt-[70px] pb-[100px]'>
@@ -41,7 +41,8 @@ const SocialDiscount = () => {
                 <div className=' lg:px-0 px-5 pt-[74px] flex justify-center gap-[26px]'>
                 <input onChange={(alu)=>{setinputData(alu.target.value), setinputError('border-[#000000]')}}
                  className={` w-[643px] border-b-2 font-roboto font-semibold text-[16px] text-[#000000] pl-4 outline-none ${inputError}`} type="text" placeholder='Email address...'/>
-                <button onClick={handelSubmit} className=' w-[115px] border-b-2 border-[#000000] font-opensans font-normal text-[16px] text-[#000000] cursor-grab '>SUBMIT</button>
+                <button onClick={handelSubmit} className=' w-[115px] h-[35px] border-b-2 border-[#000000] font-opensans font-normal text-[16px]
+                 text-[#000000] cursor-grab hover:border-[#FF8000] hover:bg-[#FF8000] hover:text-[#FFFFFF] transition-all duration-[.3s]'>SUBMIT</button>
                 </div>
             </div>
         </div>

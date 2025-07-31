@@ -39,7 +39,8 @@ const Navbar = () => {
             <ul className=' flex items-center justify-between'>
                 {
                     navItems.map((item)=>{
-                    return  <li><Link to={'item.navBarLink'} className='text-base font-normal text-[#000]' >{item.navBarContent}</Link></li>
+                    return  <li><Link to={'item.navBarLink'} className='text-base font-normal text-[#000] hover:border-b border-[#FF8000] 
+                    pb-[4px] hover:text-[#FF8000] transition-all duration-[.2s]' >{item.navBarContent}</Link></li>
                     })
                 }
             </ul>
